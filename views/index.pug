@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    title Keshaw's Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png" class ="logo")
+                | KDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact us]
+    section#introsection 
+        div Welcome to keshaw's dance academy
+        div.light "dancers are atheletes of god"
+    
+    div#mission     
+        h3 Our mission
+        div.card#perfection
+            h4 perfection
+        div.card#dedication
+            h4 dedication 
+        div.card#passion
+            h4 passion  
+    section#sponsorssection 
+        h3 Our sponsors
+        div#sponsors
+            img(src="/static/sponsor 1.png", alt="sponsor image")
+            img(src="/static/sponsor 2.png", alt="sponsor image")
+            img(src="/static/sponsor 3.jpg", alt="sponsor image")
+    
+    footer#footer
+        div#copy
+            | Copyright @ 2022 Keshaw'sDanceAcademy.com | All rights reserved
+    script 
+        include ../static/index.js

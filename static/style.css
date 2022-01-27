@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color:rgb(255, 215, 154);
+    margin-right: 31px;
+}
+.logo{
+    width: 100px;
+    margin-top: -38px;
+    
+}
+#navbar{
+    background-color:#262626;
+    padding: 39px 14px;
+    font-family:'Ubuntu';
+    font-size: larger;
+    height: 100px;
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#navbar li{
+    list-style: none;
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;  
+}
+
+#navbar li a:hover{
+    text-decoration: none;
+    padding: 13px 30px;
+    color:rgb(255, 215, 154);
+    
+}
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family:'Oxygen'; 
+    font-weight: 700;   
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+    background:url(/static/dance.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 106px;
+}
+
+#introsection div.light{
+    font-size: 1.5rem;
+    font-weight:400;
+    padding: 5px;
+}
+
+#mission{
+    height:425px;
+    background:url(/static/mission.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+#mission h3{
+    font-family:'Oxygen'; 
+    font-weight: 700;   
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.card h4{
+    text-align: center;
+    color: white;
+    font-family: 'Oxygen';
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 124px;
+}
+
+#passion{
+    background:url(/static/passion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dedication{
+    background:url(/static/dedication.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#perfection{
+    background:url(/static/perfection.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.card{
+    display: inline-block;
+    border: 0px solid white;
+    color: white;
+    width: 32%;
+    height: 70%;
+    margin: 21px 5px;
+    border-radius: 5px;
+}
+
+#sponsorssection{
+    font-family:'Oxygen'; 
+    font-weight: 700;   
+    font-size: 2rem;
+    height: 425px;
+    background:url(/static/sponsors.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#sponsorssection h3{
+    
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+ #sponsors{
+    height: 191px;
+    max-width: 731px;
+    margin: 41px auto;
+ }
+
+
+#sponsors img{
+    height: 155px;
+    margin:30px;
+    border-radius: 5px;
+}
+
+#copy{
+    margin: auto;
+    padding-top: 24px;
+    text-align: center;
+}
+
+#footer{
+    height: 70px;
+    background-color: black;
+    color: rgb(255 215 154 / 91%);
+    font-family:'Ubuntu';
+}
